@@ -186,7 +186,7 @@
 import { ref, reactive, onMounted, computed } from 'vue';
 import axios from 'axios';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'https://tesst-3rg0pw.fly.dev/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'http://160.30.192.113:8090//api';
 const loading = ref(false);
 const isSyncMode = ref(false);
 const isLoggedIn = ref(false);
